@@ -2,7 +2,7 @@
 // [3, 7, 23, 12]-> 19
 // [-4, -6, 89, 6]-> 0
 
-Console.WriteLine("Ввведите число:");
+Console.WriteLine("Ввведите размер массива:");
 int number = Convert.ToInt32(Console.ReadLine());
 int [] array = FillArray(number);
 Console.WriteLine("Сформирован массив: [" + String.Join(", ", array) + "]");
